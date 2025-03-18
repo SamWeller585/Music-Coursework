@@ -3,10 +3,10 @@ public class Song {
     private String artist;
     private int playCount;
 
-public Song(String title, String artist) {
+public Song(String title, String artist, int playCount) {
     this.title = title;
     this.artist = artist;
-    this.playCount = 0; // Initialize playCount to a default value
+    this.playCount = playCount;
 }
 
 public String getTitle() {
