@@ -9,7 +9,7 @@ public class MusicLibrary {
         this.songs = new ArrayList<>();
     }
 
-    public void addSong(String title, String artist, int playCount) {
+    public void addSong(String title, String artist, long playCount) {
         songs.add(new Song(title, artist, playCount));
         System.out.println("Song added to library!");
     }
